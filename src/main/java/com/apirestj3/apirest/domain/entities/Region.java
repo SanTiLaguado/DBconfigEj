@@ -20,7 +20,7 @@ public class Region {
 
     @ManyToOne
     @JoinColumn(name = "codecountry")
-    private Country country;
+    private Country countries;
 
     public Region() {
     }
